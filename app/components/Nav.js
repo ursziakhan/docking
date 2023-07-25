@@ -73,7 +73,7 @@ function Nav(props) {
           </li>
           <li>
             <Link
-              href="moringrentals"
+              href="rentals"
               id="1"
               onClick={change}
               style={
@@ -86,12 +86,12 @@ function Nav(props) {
                   : { background: 'none' }
               }
             >
-              Moring Rentals
+              Docks Rentals
             </Link>
           </li>
           <li>
             <Link
-              href="/moringRentals"
+              href="/leases"
               id="2"
               onClick={change}
               style={
@@ -104,12 +104,12 @@ function Nav(props) {
                   : { background: 'none' }
               }
             >
-              Moring lease
+              Moring Leasing
             </Link>
           </li>
           <li>
             <Link
-              href="/acontact"
+              href="/contact"
               id="3"
               onClick={change}
               style={
@@ -122,7 +122,7 @@ function Nav(props) {
                   : { background: 'none' }
               }
             >
-              Contact
+              Contact us
             </Link>
           </li>
           <li>
@@ -166,10 +166,10 @@ function Nav(props) {
 
         {/* ////////////////////Responsive Menu //////////////////*/}
         <ul
-          className={`md:hidden w-full h-screen z-10 text-white fixed bg-black  top-[92px]
+          className={`md:hidden w-full h-screen z-20 text-white fixed bg-black  top-[92px] bg-optional text-primary
         ${toggle ? 'left-[0]' : 'left-[-100%]'}`}
         >
-          <li className="p-5">
+          <li className="p-5 ">
             <Link
               href="/"
               id="7"

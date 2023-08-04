@@ -39,11 +39,11 @@ function Morning() {
       <div className="allimages main flex flex-col w-full md:w-[50%] ">
         <div className="twoimages flex flex-row justify-center w-full items-center gap-4">
           <div className="h-full w-full">
-            <img
-              src="./images/docking.webp"
+            <img src="./images/docking.webp"
               alt="Image Description"
-              className="h-full object-cover rounded"
-            />
+              className="h-full object-cover rounded">
+              
+              </img>
           </div>
           <div className="w-1/2 ml-15   ">
             <img

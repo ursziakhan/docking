@@ -18,6 +18,8 @@ module.exports = {
       text: '#333333', // Text color
       border: 'red',
       back: 'black',
+      newback:'#22c55e',
+  
       btnTextp: '#ffffff',
       hover: {
         primary: '#247BA0', // Hover color for primary elements

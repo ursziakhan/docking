@@ -12,7 +12,7 @@ function page() {
             <div className='bg-primary flex flex-col md:flex-row rounded-2xl shadow-2xl   md:w-full md:max-w-4xl '>
 
                             {/* sign in section */}
-                        <div className='w-full md:w-4/5 p-5 '>
+                        <div className='w-full md:w-3/5 p-5 '>
                             <div className='font-bold text-center md:text-left'>
                             <span className='text-newback'>Company</span>Name
                             </div>
@@ -65,7 +65,7 @@ function page() {
                         </div>
 
                     {/* sign up section */}
-                    <div className='w-full md:w-3/5 bg-newback text-primary rounded  md:rounded-tr-2xl md:rounded-br-2xl py-36 px-12'><p>Sign up Section</p>
+                    <div className='w-full md:w-2/5 bg-newback text-primary rounded  md:rounded-tr-2xl md:rounded-br-2xl py-36 px-12'><p>Sign up Section</p>
                     <h2 className='text-3xl font-bold mb-2 '>Hello, David</h2>
                     <div className='border-2 w-10 border-primary inline-block mb-2'></div>
                     <p className='mb-10'>Fill up personal information and and start journey with us!</p>

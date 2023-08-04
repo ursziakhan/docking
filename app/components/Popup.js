@@ -4,7 +4,7 @@ function Popup(props) {
   const { closePopupHandler } = props;
   return (
     <div
-      className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50"
+      className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 bg-shadow"
       style={{ background: 'rgba(0,0,0,0.7)', zIndex: 10000 }}
     >
       <div className="w-full max-w-md bg-primary rounded-lg shadow-lg">

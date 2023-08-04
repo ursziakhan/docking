@@ -1,99 +1,42 @@
 import React from 'react';
+import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <footer className="w-full relative bg-blueGray-200 pt-8 pb-6 bg-optional">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-wrap text-left lg:text-left">
-          <div className="w-full lg:w-6/12 px-4">
-            <h4 className="text-3xl fonat-semibold text-blueGray-700 text-primary">
-              Here comes logo
-            </h4>
-            <h5 className="text-lg mt-0 mb-2 text-blueGray-600 text-primary">
-              Here we gonna write some text if we need it
-            </h5>
-            <div className="mt-6 lg:mb-0 mb-6">
-              <button
-                className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                type="button"
-              >
-                <img src="./images/facebook.svg" />
-              </button>
+    <footer className="bg-newback text-primary ">
+      <div className="container mx-auto w-4/5 md:w-4/5 py-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 flex  max-w-8xl ">
+          <div className="mb-8 ">
+            <h3 className="text-xl font-bold mb-4 p-2">company Logo</h3>
+            <p className="text-sm ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at tortor vel nulla consectetur rhoncus.</p>
+          </div>
+          <div className="mb-8  ">
+            <h3 className="text-xl font-bold mb-4 p-2">Contact</h3>
+            <p className="text-sm ">Email:ursziakhan@.com</p>
+            <p clasgmailsName="text-sm ">Phone: +46 720-450414</p>
+          </div>
+          <div className="mb-8 ">
+            <h3 className="text-xl font-bold mb-4 p-2">Links</h3>
+            <ul className="text-sm flex   ">
+            
+              <li><a href="leases" className="text-blue-300 hover:text-blue-500 hover:bg-primary p-2 hover:text-newback rounded">Leases</a></li>
+              <li><a href="rentals" className="text-blue-300 hover:text-blue-500 hover:bg-primary p-2 hover:text-newback rounded ">Rentals</a></li>
+              <li><a href="contact" className="text-blue-300 hover:text-blue-500 hover:bg-primary p-2 hover:text-newback rounded">Contact</a></li>
+              <li><a href="login" className="text-blue-300 hover:text-blue-500 hover:bg-primary p-2 hover:text-newback rounded">Login</a></li>
 
-              <button
-                className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                type="button"
-              >
-                <img src="./images/instagram.svg" />
-              </button>
-            </div>
+            </ul>
           </div>
-          <div className="w-full lg:w-6/12 px-4">
-            <div className="flex flex-wrap items-top mb-6">
-              <div className="w-full lg:w-4/12 px-4 ml-auto flex ">
-                <span className="uppercase text-blueGray-500 text-sm font-semibold mb-2 text-primary">
-                  Useful Links
-                </span>
-                <ul className="list-unstyled flex flex-row gap-6">
-                  <li>
-                    <a
-                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm text-primary"
-                      href="https://www.creative-tim.com/presentation?ref=njs-profile"
-                    >
-                      About Us
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm text-primary"
-                      href="https://blog.creative-tim.com?ref=njs-profile"
-                    >
-                      Blog
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm text-primary"
-                      href="https://www.github.com/creativetimofficial?ref=njs-profile"
-                    >
-                      Github
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm text-primary"
-                      href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile"
-                    >
-                      Free Products
-                    </a>
-                  </li>
-                </ul>
-              </div>
+          <div className="mb-8 sm:ml-6  ">
+            <h3 className="text-xl font-bold mb-4 p-2 ">Follow Us</h3>
+            <div className="flex gap-4 sm:p-2">
+              <a href="#" className="  border-2 border-[#edf2f7] p-2 rounded-full hover:bg-primary p-2 hover:text-newback rounded"> <FaFacebookF  className='text-sm'/></a>
+              <a href="#" className="border-2 border-[#edf2f7] p-2 rounded-full  hover:bg-primary p-2 hover:text-newback rounded"><FaInstagram  className='text-sm'/></a>
+            
             </div>
           </div>
         </div>
-        <hr className="my-6 border-blueGray-300" />
-        <div className="flex flex-wrap items-center md:justify-between justify-center">
-          <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-            <div className="text-sm text-blueGray-500 font-semibold py-1 text-primary">
-              Copyright © <span id="get-current-year">2023</span>
-              <a
-                href="https://www.merakommunikation.se/"
-                className="text-blueGray-500 hover:text-gray-800 text-primary"
-                target="_blank"
-              >
-                Merakommunication &nbsp;
-              </a>
-              <a
-                href="https://www.webcomm.se"
-                className="text-blueGray-500 hover:text-blueGray-800 text-primary"
-              >
-                Zia
-              </a>
-              .
-            </div>
-          </div>
-        </div>
+        <hr className="my-8 border-gray-600" />
+        <p className="text-center text-sm">© 2023 Your Company. All rights reserved.</p>
       </div>
     </footer>
   );

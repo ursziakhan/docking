@@ -20,8 +20,8 @@ function Hero() {
       >
         <div className="text-center mt-20 mx-4">
           <h1
-            className="heading text-xl  md:text-2xl lg:text-2xl 
-                  font-bold bg-newback  p-4 
+            className="heading text-xl text-optional bg-[#e8e8ef] md:text-2xl lg:text-2xl 
+                  font-bold  p-4 
                           rounded font-heading   
                           "
           >
@@ -34,21 +34,21 @@ function Hero() {
           </p>
         </div>
 
-        <div className="md:flex bg-newback p-5 mt-8 w-[90%] md:w-[600px] rounded-full z-10 bg-opacity-90 mb-20">
-          <div className="w-full md:w-1/3 px-5">
+        <div className="md:flex bg-[#e5e5e5] p-5 mt-8 w-[90%] md:w-[600px] rounded-full z-10 mb-20">
+          <div className="w-full md:w-1/3   px-5">
             {/* <label htmlFor="location" className="block font-semibold mb-2 text-primary">
               Location
             </label> */}
             <select
               id="location"
-              className=" w-full border-current rounded-full py-2 px-3"
+              className=" w-full rounded-full py-2 px-4 "
             >
-            <option value="A">Location</option>
+            <option  value="A">Location</option>
               <option value="A">Option A</option>
               <option value="B">Option B</option>
             </select>
           </div>
-          <div className="w-full md:w-1/3 px-5 mt-4 md:mt-0">
+          <div className="w-full md:w-1/3 px-5 mt-4 md:mt-0 ">
             {/* <label htmlFor="type" className="block font-semibold mb-2 text-primary text-center">
               Type
             </label> */}

@@ -37,9 +37,9 @@ function Nav({ initialActive }) {
   };
 
   return (
-    <div className="bg-newback shadow p-4 font-bold ">
+    <div className="   shadow-lg  p-4 font-semibold ">
       <div className="max-w-[1240px] flex justify-between py-[15px] mx-auto">
-        <div className="text-2xl font-bold">My Logo</div>
+        <div className="text-2xl ">My Logo</div>
         {toggle ? (
           <AiOutlineClose
             onClick={open}
@@ -52,8 +52,8 @@ function Nav({ initialActive }) {
           />
         )}
 
-        <ul className="hidden md:flex gap-6" ref={navRef}>
-          <li className=" hover:bg-primary hover:text-newback hover:border-xl rounded p-2  ">
+        <ul className="hidden md:flex gap-6 " ref={navRef}>
+          <li className=" hover:bg-[#1a1a64] hover:text-primary hover:border-xl rounded p-2  ">
             <Link
               href="/"
               id="0"
@@ -63,7 +63,7 @@ function Nav({ initialActive }) {
               Home
             </Link>
           </li>
-          <li className=' hover:bg-primary hover:text-newback hover:border-xl rounded p-2 '>
+          <li className=' hover:bg-[#1a1a64] hover:text-primary hover:text-newback hover:border-xl rounded p-2 '>
             <Link
               href="/rentals"
               id="1"
@@ -73,7 +73,7 @@ function Nav({ initialActive }) {
               Docks Rentals
             </Link>
           </li>
-          <li className=' hover:bg-primary hover:text-newback hover:border-xl rounded p-2 '>
+          <li className=' hover:bg-[#1a1a64] hover:text-primary hover:border-xl rounded p-2 '>
             <Link
               href="/leases"
               id="2"
@@ -83,7 +83,7 @@ function Nav({ initialActive }) {
               Moring Leasing
             </Link>
           </li>
-          <li className=' hover:bg-primary hover:text-newback hover:border-xl rounded p-2 '>
+          <li className=' hover:bg-[#1a1a64] hover:text-primary hover:border-xl rounded p-2 '>
             <Link
               href="/contact"
               id="3"
@@ -93,7 +93,7 @@ function Nav({ initialActive }) {
               Contact us
             </Link>
           </li>
-          <li className=' hover:bg-primary hover:text-newback hover:border-xl rounded p-2 '>
+          <li className=' hover:bg-[#1a1a64] hover:text-primary hover:border-xl rounded p-2 '>
             <Link
               href="/about"
               id="4"
@@ -105,8 +105,8 @@ function Nav({ initialActive }) {
           </li>
         </ul>
 
-        <ul className="hidden md:flex text-white gap-10">
-          <li className=' hover:bg-primary hover:text-newback hover:border-xl rounded p-2 '>
+        <ul className="hidden md:flex text-white gap-10 ">
+        <li className='bg-[#1a1a64] hover:bg-black text-primary hover:text-primary hover:underline hover:border-xl rounded px-4 py-2'>
         
             <Link
               href="/signin"

@@ -2,10 +2,8 @@ import React from 'react';
 
 function Morning() {
   return (
-    <div
-      className="flex justify-center flex-col md:flex-row md:mt-20  max-w-full gap-20 md:px-20 pt-6 p-5 mt-10 mb-10  md:mb-0
-     "
-    >
+    <div className=" flex flex-row items-center w-full w-full py-2 ">
+    <div className=' flex flex-col md:flex-row  w-[100%] p-8 px-28'  >
       <div className="main flex flex-col w-full md:w-[50%]  ">
         <div className=" w-full ">
           <img
@@ -33,37 +31,47 @@ function Morning() {
           </div>
         </div>
       </div>
-      <div className="w-full md:w-[45%]">
-        <div className="">
-          <h2 className="text-2xl md:text-4xl font-bold  leading-normal md:leading-10">
-            Providing Large Docks <br></br> Rental For A Perfect
-          </h2>
-        </div>
-        <div>
-          <p className="text-lg font-medium mt-4 md:mt-8 text-justify">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-          </p>
-          <ul className="text-lg font-medium mt-4 md:mt-8">
-            <b>Rates</b>
-            <li>Seasonal Rate (Apr 15-Oct 15): $810</li>
-            <li>Monthly Rate: $265</li>
-            <li>Weekly Rate: $100</li>
-            <li>Daily Rate: $30</li>
-            <br></br>
-            <b>Details</b>
-            <li>$20 discount if paid in full by March 31</li>
-            <li>Payment is per slip, not by boat length</li>
-          </ul>
-          <button class="mt-10 px-6 py-3 text-lg font-medium text-primary bg-secondary rounded-lg shadow-md hover:bg-third transition duration-300">
-            Vacant Docks
-          </button>
-        </div>
-      </div>
+
+
+      <div className='w-full md:w-[60%] px-20 py-8'>
+                            
+
+                           <div className=' '>
+                       
+                               <h2 className='md:text-3xl text-2xl font-bold text-optional  '>Providing Large Docks
+                                 Rental For A Perfect</h2>
+
+                                   <div className='flex justify-center items-center'>
+                                   <div className='border-2 w-10 border-optional inline-block justify-center'></div>
+                                   </div>
+
+                               <p className='text-optional mt-8 text-justify '> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                <div className='flex flex-col text-left mt-6 '>
+                                    <h2 className='md:text-2xl text-xl font-bold mb-2'>Our Docking Charges</h2></div>
+                               <div > 
+                               <ul class="list-none">
+                            <li class="relative">
+                                            <span className="absolute left-0 top-0 ml-3">&#10148;</span>
+                                   <span className="ml-12 ">Item 1 write some thing important</span>
+                                         </li>
+                                     <li class="relative">
+                                      <span className="absolute left-0 top-0 ml-3">&#10148;</span>
+                                     <span class="ml-12">Item 2 write some thing important</span>
+                                           </li>
+                             <li class="relative">
+                               <span className="absolute left-0 top-0 ml-3">&#10148;</span>
+                               <span class="ml-12">Item 3 write some thing important</span>
+                             </li>
+                                         </ul>
+
+                                                      <a href='#' className='border-2 mt-6 text-primary bg-[#1a1a64] rounded-full px-12 py-2 inline-block font-semi-bold hover:bg-primary hover:text-optional  '>Sign In</a>
+                                                      </div>
+                                       
+                           </div>
+                       </div>
+
+
+</div>
     </div>
   );
 }

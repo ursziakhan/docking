@@ -2,7 +2,7 @@ import React from 'react';
 
 function Morning() {
   return (
-    <div className="flex justify-center flex-col-reverse md:flex-row   max-w-full gap-20 md:px-40 pt-20 pb-20 p-5 bg-fourth ">
+    <div className="flex justify-center flex-col-reverse md:flex-row  bg-[#faf7f2]  gap-20 md:px-40 pt-20 pb-20 p-5  ">
       <div className=" flex flex-col justify-ceter w-full md:w-[50%]  ">
         <div className="  md:mt-16 ">
           <h2 className="text-2xl md:text-4xl font-bold    mt-[-10%] md:mt-0 leading-normal md:leading-10">
@@ -62,6 +62,9 @@ function Morning() {
           />
         </div>
       </div>
+
+
+      
     </div>
   );
 }

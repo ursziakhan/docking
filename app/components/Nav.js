@@ -40,17 +40,7 @@ function Nav({ initialActive }) {
     <div className="   shadow-lg  p-4 font-semibold ">
       <div className="max-w-[1240px] flex justify-between py-[15px] mx-auto">
         <div className="text-2xl ">My Logo</div>
-        {toggle ? (
-          <AiOutlineClose
-            onClick={open}
-            className="text-2xl md:hidden block"
-          />
-        ) : (
-          <AiOutlineMenu
-            onClick={open}
-            className="text-white text-2xl md:hidden block"
-          />
-        )}
+  
 
         <ul className="hidden md:flex gap-6 " ref={navRef}>
           <li className=" hover:bg-[#1a1a64] hover:text-primary hover:border-xl rounded p-2  ">
@@ -119,30 +109,137 @@ function Nav({ initialActive }) {
             </li>
         </ul>
 
-        {/* Responsive Menu */}
-        <ul
-          className={`md:hidden w-full h-screen z-20 text-white fixed bg-black top-[92px] bg-optional text-primary
-          ${toggle ? 'left-[0]' : 'left-[-100%]'}`}
-        >
-          <li className="p-5">
+      {/* ////////////////////Responsive Menu //////////////////*/}
+      <div onClick={open} className='block md:hidden z-10'> 
+      
+
+{toggle ? <AiOutlineClose /> : <AiOutlineMenu/>}
+
+
+
+
+      <ul>
+          <li className="p-5 ">
             <Link
+
+            
               href="/"
-              data-id="7"
+              id="7"
               onClick={change}
               style={
                 active === 7
                   ? {
-                      color: 'blue', // Set the text color to blue when active
-                      fontWeight: 'bold', // Set the font weight to bold when active
+                      background: 'yellow',
+                      padding: '8px',
+                      color: 'black',
+                      borderRadius: '8px',
                     }
-                  : {} // Empty object for non-active links (default styles)
+                  : { background: 'none' }
               }
             >
               Home
             </Link>
           </li>
-          {/* Add other mobile menu items here */}
+          <li className="p-5">
+            <Link
+              href="rentals"
+              id="8"
+              onClick={change}
+              style={
+                active === 8
+                  ? {
+                      background: 'yellow',
+                      padding: '8px',
+                      color: 'black',
+                      borderRadius: '8px',
+                    }
+                  : { background: 'none' }
+              }
+            >
+           Dock Rentals
+            </Link>
+          </li>
+          <li className="p-5">
+            <Link
+              href="/leases"
+              id="9"
+              onClick={change}
+              style={
+                active === 9
+                  ? {
+                      background: 'yellow',
+                      padding: '8px',
+                      color: 'black',
+                      borderRadius: '8px',
+                    }
+                  : { background: 'none' }
+              }
+            >
+            Docks Leassing
+            </Link>
+          </li>
+          <li className="p-5">
+            <Link
+              href="/contact"
+              id="10"
+              onClick={change}
+              style={
+                active === 10
+                  ? {
+                      background: 'yellow',
+                      padding: '8px',
+                      color: 'black',
+                      borderRadius: '8px',
+                    }
+                  : { background: 'none' }
+              }
+            >
+       Contact Us
+            </Link>
+          </li>
+          <li className="p-5">
+            <Link
+              href="/about"
+              id="10"
+              onClick={change}
+              style={
+                active === 10
+                  ? {
+                      background: 'yellow',
+                      padding: '8px',
+                      color: 'black',
+                      borderRadius: '8px',
+                    }
+                  : { background: 'none' }
+              }
+            >
+              About
+            </Link>
+          </li>
+
+         
+
+          <li className="p-5">
+            <Link
+             href="/login"
+              id="13"
+              onClick={change}
+              style={
+                active === 13
+                  ? {
+                      background: 'yellow',
+                      padding: '5px',
+                      color: 'black',
+                      borderRadius: '8px',
+                    }
+                  : { background: 'none' }
+              }
+            >
+              Login
+            </Link>
+          </li>
         </ul>
+        </div>
       </div>
       {showPopup && <Popup closePopupHandler={closePopupHandler} />}
     </div>

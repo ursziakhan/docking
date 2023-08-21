@@ -2,7 +2,7 @@
 
 import Hero from './components/Hero';
 import Leasing from './components/Leasing';
-import Morning from './components/Moring';
+
 import Rentals from './components/Rentals';
 import Contact from './components/Contact';
 
@@ -16,8 +16,8 @@ function page() {
             Providing Large Docks 
           </h2>
         </div>
-        <div>
-          <p className="text-lg font-medium my-12 px-[20%] text-center">
+        <div >
+          <p className="text-lg font-medium my-8  px-8 md:px-[20%] md:text-center sm:text-justify">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s.

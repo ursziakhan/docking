@@ -9,10 +9,10 @@ function page() {
         <main className='flex flex-col items-center justify-center  w-full  text-center py-2 bg-[#faf7f2] '>
 
                 {/* wraper div */}
-            <div className='flex flex-col md:flex-row   justify-center  w-full p-16 '>
+            <div className='flex flex-col md:flex-row   justify-center  w-full p-0 md:p-16 '>
 
                         
-                                <div className=' w-[50%]  p-6 rounded bg-primary'>
+                                <div className=' w-full md:w-[50%]  p-0 md:p-6 rounded bg-primary'>
                    
                                     <div className='py-10'>
                                         <h2 className='md:text-3xl text-2xl font-bold text-optional mb-2'>Send us a message</h2>
@@ -53,7 +53,7 @@ function page() {
                                             </div>
                                            
                                             
-                                            <a href='#' className='border-2 mt-8 border-optional hover:border-primary text-optional rounded-full px-12 py-2 inline-block font-semi-bold hover:bg-[#1a1a64] hover:text-primary '>Sign In</a>
+                                            <a href='#' className='border-2 mt-8 border-optional hover:border-primary text-optional rounded-full px-12 py-2 inline-block font-semi-bold hover:bg-[#1a1a64] hover:text-primary '>Submit</a>
 
 
                                         </div>

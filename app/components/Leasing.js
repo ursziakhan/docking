@@ -3,8 +3,8 @@ import React from 'react';
 function Morning() {
   return (
     <div className=" flex flex-row items-center w-full w-full py-2 ">
-    <div className=' flex flex-col md:flex-row  w-[100%] p-8 px-28'  >
-      <div className="main flex flex-col w-full md:w-[50%]  ">
+    <div className=' flex flex-col md:flex-row  w-[100%] p-8 md:px-28 '  >
+      <div className="main flex flex-col w-full md:w-[50%]  order-2 md:order-1">
         <div className=" w-full ">
           <img
             src="./images/docks.jpg"
@@ -33,7 +33,7 @@ function Morning() {
       </div>
 
 
-      <div className='w-full md:w-[60%] px-20 py-8'>
+      <div className='w-full md:w-[60%] md:px-20 py-8 order-1 md:order-2'>
                             
 
                            <div className=' '>

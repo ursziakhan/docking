@@ -6,7 +6,7 @@ import { MdLockOutline} from 'react-icons/md';
 function page() {
   return (
    
-        <main className='flex flex-col items-center justify-center w-full flex-1 text-center min-h-screen py-2 bg-[#faf7f2]   '>
+        <main className='flex flex-col items-center justify-center w-full flex-1 text-center min-h-screen py-2 bg-[#faf7f2]    '>
       <div className="relative h-[400px] flex bg-cover bg-center text-primary opacity-90" style={{ backgroundImage: "url('/images/docks.jpg')" }}>
   <div className="absolute inset-0 bg-optional opacity-60"></div> {/* Semi-dark overlay */}
   <div className="relative  z-10 flex flex-col items-center justify-center">
@@ -79,7 +79,7 @@ function page() {
                     <h2 className='text-3xl font-bold mb-2 '>Hello, David</h2>
                     <div className='border-2 w-10 border inline-block mb-2 '></div>
                     <p className='mb-10'>Fill up personal information and and start journey with us!</p>
-                    <a href='#' className='border-2 border-primary rounded-full px-12 py-2 inline-block font-semi-bold hover:bg-primary hover:text-optional '>Sign Up</a>
+                    <a href='/signup' className='border-2 border-primary rounded-full px-12 py-2 inline-block font-semi-bold hover:bg-primary hover:text-optional '>Sign Up</a>
 
                 </div>
             </div>

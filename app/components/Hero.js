@@ -2,7 +2,7 @@ import React from 'react';
 
 function Hero() {
   return (
-    <div className="relative  sm:h-300 md:h-600 flex justify-center    h-[600px] ">
+    <div className="relative  sm:h-300 md:h-600 flex justify-center md:pb-10    h-[600px] ">
       <video
         className="absolute h-full w-full object-cover "
         autoPlay
@@ -33,12 +33,10 @@ function Hero() {
             <br /> rent or lease your perfect boat today!
           </p>
         </div>
-
-        <div className="md:flex bg-[#e5e5e5] p-5 mt-8 w-[90%] md:w-[600px] rounded-full z-10 mb-20">
-          <div className="w-full md:w-1/3   px-5">
-            {/* <label htmlFor="location" className="block font-semibold mb-2 text-primary">
-              Location
-            </label> */}
+        <div className="md:flex p-5  w-[80%]  md:w-[600px] z-10 rounded md:border md:border-primary
+                         md:rounded-full lg:rounded-full xl:rounded-full">
+          <div className="w-full md:w-1/3   px-6"> 
+ 
             <select
               id="location"
               className=" w-full rounded-full py-2 px-4 "
@@ -48,18 +46,18 @@ function Hero() {
               <option value="B">Option B</option>
             </select>
           </div>
+
+
           <div className="w-full md:w-1/3 px-5 mt-4 md:mt-0 ">
-            {/* <label htmlFor="type" className="block font-semibold mb-2 text-primary text-center">
-              Type
-            </label> */}
+     
             <select id="type" className="w-full rounded-full py-2 px-3 ">
             <option value="rental">Type</option>
               <option value="rental">Rental</option>
               <option value="lease" >Lease</option>
             </select>
           </div>
-          <div className="flex md:w-1/3 w-full px-5  items-center ">
-          <button className="rounded-full border-transparent hover:border-optional  py-2 px-8 rounded bg-primary hover:bg-optional hover:text-primary w-full">
+          <div className="flex md:w-1/3 w-full px-5  items-center md:py-0 sm:py-4 lg:py-0  ">
+          <button className="rounded-full border-transparent hover:border-optional  p-2 px-8 rounded bg-primary hover:bg-optional hover:text-primary w-full">
   Search
 </button>
 

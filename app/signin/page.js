@@ -79,7 +79,7 @@ function page() {
                     <h2 className='text-3xl font-bold mb-2 '>Hello, David</h2>
                     <div className='border-2 w-10 border inline-block mb-2 '></div>
                     <p className='mb-10'>Fill up personal information and and start journey with us!</p>
-                    <a href='/signup' className='border-2 border-primary rounded-full px-12 py-2 inline-block font-semi-bold hover:bg-primary hover:text-optional '>Sign Up</a>
+                    <a href='/signup' className='  bg-[#1a1a64] border-2 border-primary rounded-full px-12 py-2 inline-block font-semi-bold hover:bg-primary hover:text-optional '>Sign Up</a>
 
                 </div>
             </div>
